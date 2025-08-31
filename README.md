@@ -26,12 +26,19 @@ Neutral: 18,108
 The 'Irrelevant' label was excluded to focus on core sentiment classes.
 
 # 🏗️ Project Structure
+
 texttwitter-sentiment-analysis/
+
 ├── twitter-sentiment-analysis.ipynb   # Data loading, preprocessing, and model training
+
 ├── Deplyment_gradio.ipynb            # Model deployment with Gradio
+
 ├── best_model.keras                  # Trained Keras model (not in repo; generated during training)
+
 ├── tokenizer.pkl                     # Tokenizer for text processing (generated during training)
+
 ├── README.md                         # Project documentation
+
 └── LICENSE                           # MIT License
 
 # 🔧 Design and Architecture
